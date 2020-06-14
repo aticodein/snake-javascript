@@ -27,7 +27,6 @@ export function getInputDirection() {
     return inputDirection
 }
 
-
 document.getElementById("fa-arrow-alt-circle-up").addEventListener("click", arrowUp);
 
 function arrowUp() {
@@ -37,7 +36,6 @@ function arrowUp() {
 document.getElementById("fa-arrow-alt-circle-down").addEventListener("click", arrowDown);
 
 function arrowDown() {
-    
     inputDirection = { x: 0, y: 1 }
 }
 
