@@ -1,6 +1,6 @@
-import { update as updateSnake, draw as drawSnake, SNAKE_SPEED, getSnakeHead, snakeIntersection } from "./assets/js/snake.js";
-import { update as updateFood, draw as drawFood } from "./assets/js/food.js";
-import { outsideGrid } from "./assets/js/grid.js"
+import { update as updateSnake, draw as drawSnake, SNAKE_SPEED, getSnakeHead, snakeIntersection } from "./snake.js";
+import { update as updateFood, draw as drawFood } from "./food.js";
+import { outsideGrid } from "./grid.js"
 
 
 let lastRenderTime = 0
