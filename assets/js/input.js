@@ -26,27 +26,3 @@ export function getInputDirection() {
     lastInputDirection = inputDirection
     return inputDirection
 }
-
-document.getElementById("fa-arrow-alt-circle-up").addEventListener("click", arrowUp);
-
-function arrowUp() {
-    inputDirection = { x: 0, y: -1 }
-}
-
-document.getElementById("fa-arrow-alt-circle-down").addEventListener("click", arrowDown);
-
-function arrowDown() {
-    inputDirection = { x: 0, y: 1 }
-}
-
-document.getElementById("fa-arrow-alt-circle-left").addEventListener("click", arrowLeft);
-
-function arrowLeft() {
-    inputDirection = { x: -1, y: 0 }
-}
-
-document.getElementById("fa-arrow-alt-circle-right").addEventListener("click", arrowRight);
-
-function arrowRight() {
-    inputDirection = { x: 1, y: 0 }
-}
